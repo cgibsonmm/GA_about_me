@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./fontawesome/css/all.css">
+  <link rel="stylesheet" href="./css/master.css">
+  <title>Corey Gibson</title>
+</head>
+
+<body>
+
+  <!-- NavBar -->
+  <div class="navbar-fixed">
+    <nav class="z-depth-2">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="" class="brand-logo hot-yellow-text">Corey Gibson</a>
+          <a href="" data-target="mobile-link" class="sidenav-trigger hot-yellow-text">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li>
+              <a href="#main-box" class="hot-yellow-text waves-effect">About Me</a>
+            </li>
+            <li>
+              <a href="#image-gallery-hr" class="hot-yellow-text waves-effect">Image Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Page -->
+  <div class="container">
+    <div id="main-box">
+      <div class="row">
+        <div class="col s12">
+          <div class="card horizontal card-image-background z-depth-5">
+            <div class="fill">
+              <div class="card-image col s5">
+                <div id="main-img" class="responsive-img">
+                </div>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p class="flow-text hot-yellow-text call-to-action">Hello, I'm<br /><strong>Corey Gibson</strong></p>
+                  <p class="flow-text near-white-text call-to-action">I am 29 years old and currently living in Middle Villiage, Queens. Over the past five years, I have been employed by FDNY - EMS and working overnights on an ambulance in
+                    Willimsburg, Brooklyn.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left Box -->
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card z-depth-5">
+          <div class="row valign-wrapper">
+            <div class="col s4 offset-s1">
+              <img id="google-img" class="circle responsive-img" src="./images/google-photo.jpg" alt="Corey Gibson">
+            </div>
+            <div class="col s7 card-content">
+              <h5 class="center-align card-heading">Social Media</h5>
+              <div class="row">
+                <div class="col s12">
+                  <ul id="social-link-list" class="near-white-text">
+                    <li>
+                      <a href="https://github.com/cgibsonmm">
+                        <i class="fab fa-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/corey-gibson-67469569/">
+                        <i class="fab fa-linkedin-in"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.facebook.com/cgibson89">
+                        <i class="fab fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li><i class="fab fa-instagram"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Right Box -->
+      <div id='travel-card' class="col s12 m6">
+        <div class="card z-depth-5">
+          <div class="card-content">
+            <h5 class="center-align card-heading">Travel</h5>
+            <ul class="near-white-text">
+              <li>hello</li>
+              <li>hello</li>
+              <li>hello</li>
+              <li>hello</li>
+              <li>hello</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- image Gallery -->
+    <hr id="image-gallery-hr">
+    <div class="row">
+      <div class="col s12">
+        <div id="image-gallery">
+          <h4 class="center-align">
+            Image Gallery
+          </h4>
+          <div class="slider">
+            <ul class="slides z-depth-5">
+              <li>
+                <img src="./images/London.jpg" alt="London">
+                <div class="caption left-align">
+                  <h4>London</h4>
+                  <h5>- England</h5>
+                </div>
+              </li>
+              <li>
+                <img src="./images/Big-Sur.jpg" alt="Big Sur">
+                <div class="caption left-align">
+                  <h4>Big Sur</h4>
+                  <h5>- California</h5>
+                </div>
+              </li>
+              <li>
+                <img src="./images/Yellowstone.jpg" alt="Yellowstone">
+                <div class="caption left-align">
+                  <h4>Yellowstone</h4>
+                  <h5>- Wyoming</h5>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+  </div>
+
+  <!-- sidenav -->
+  <ul class="sidenav" id="mobile-link">
+    <li><a href="#main-box" class="hot-yellow-text">About Me</a></li>
+    <li><a href="#image-gallery-hr" class="hot-yellow-text">Image Gallery</a></li>
+  </ul>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="./js/d3/d3.js"></script>
+<script src="./js/app.js"></script>
+
+</html>
