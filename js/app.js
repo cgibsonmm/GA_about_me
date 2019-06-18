@@ -12,6 +12,10 @@ document.addEventListener('DOMContentLoaded', function() {
     sidenavInstance[0].close();
   });
 
+  var materializeImages = document.querySelectorAll('.materialboxed');
+  var materializeImageInstances = M.Materialbox.init(materializeImages, {
+  })
+
   // Js Ideas
 
   var time = new Date();

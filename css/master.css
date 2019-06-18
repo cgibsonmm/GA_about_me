@@ -118,9 +118,9 @@ nav, .sidenav {
   padding-top: 30px;
 }
 
-#google-img{
+/* #google-img{
   margin: 5px;
-}
+} */
 
 #social-link-list{
   display: flex;
@@ -128,15 +128,9 @@ nav, .sidenav {
   justify-content: space-around;
 }
 
-#travel-card {
+#contact-card {
   /* height: 500px; */
 }
-
-#image-gallery {
-  height: 100vh;
-}
-
-
 
 .caption h4, .caption h5{
   font-family: "Gotham-Light", Fallback, sans-serif;
